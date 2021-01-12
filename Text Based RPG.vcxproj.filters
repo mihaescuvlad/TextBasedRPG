@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{0a0b3ead-1656-468f-9381-0b681ca4252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functionality">
+      <UniqueIdentifier>{08f98611-4206-4b7d-9223-65d66c727a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class Content">
+      <UniqueIdentifier>{39cce4a1-ce07-477d-986b-5e5777375dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functionality Scripts">
+      <UniqueIdentifier>{ae7b0ab7-87fe-4fe0-85ac-b0a34a64b15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Start">
+      <UniqueIdentifier>{da1806cd-afe5-4da3-8af8-fa8899fb0f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functionality Scripts\Text GUI">
+      <UniqueIdentifier>{a8906c39-0f45-41ec-b221-934606ab1735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functionality\HTextGUI">
+      <UniqueIdentifier>{14fd348d-0ec5-4403-b377-444561b26d4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Source Files\Class Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Class Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Class Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files\Class Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Attacks.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerChoices.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Randomizer.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Text Based RPG.cpp">
+      <Filter>Source Files\Game Start</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDetails.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="LWconditions.cpp">
+      <Filter>Source Files\Functionality Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="gotoXY.cpp">
+      <Filter>Source Files\Functionality Scripts\Text GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGUI.cpp">
+      <Filter>Source Files\Functionality Scripts\Text GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attacks.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerChoices.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDetails.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="LWconditions.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="gotoXY.h">
+      <Filter>Header Files\Functionality\HTextGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGUI.h">
+      <Filter>Header Files\Functionality\HTextGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
